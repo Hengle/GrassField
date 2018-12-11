@@ -1,0 +1,87 @@
+bin/*
+gen/*
+cocos2d/
+proj.android/
+proj.android-studio/
+proj.ios_mac/
+proj.linux/
+proj.win8.1-universal/
+proj.win10/
+proj.win32/
+proj.wp8-xaml/
+
+# for VisualStudio/MonoDevelop
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+*.apk
+*.obb
+*.ipa
+
+# =============== #
+# Unity generated #
+# =============== #
+# for unity
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+Assets/StreamingAssets/*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ============ #
+# for others   #
+# ============ #
+
+*.log #log files, for some plugins
+*.pyc #python bytecode cache, for some plugins.
+sysinfo.txt #Unity3D Generated File On Crash Reports
+
+
+# ============ #
+# for UnityPurchasing   #
+# ============ #
+
+!Assets/Plugins/UnityPurchasing/
+!Assets/Plugins/UnityPurchasing/*
+
+!*.jar
+!.gitkeep
+
+# ============ #
+# for Build  #
+# ============ #
+
+!Assets/Editor/Build/
+!Assets/Editor/Build/*
